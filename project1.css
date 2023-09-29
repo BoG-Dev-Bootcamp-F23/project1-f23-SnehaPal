@@ -1,0 +1,118 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 300%;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.body {
+    display: flex;
+    flex-direction:row;
+    gap: 100px;
+    justify-content: space-evenly;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 125%;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.moves_panel {
+    width: 400px;
+    height: 500px;
+    top: 223px;
+    left: 838px;
+    background: #E8E8E8;
+}
+
+.stats_panel {
+    width: 400px;
+    height: 500px;
+    top: 223px;
+    left: 838px;
+    background: #E8E8E8;
+}
+
+.moves_div {
+    display: none;
+}
+
+.right_half{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    float:right;
+    align-items: center;
+}
+
+.left_half {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    float:right;
+    
+}
+
+.info_move_buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+}
+
+#info_move_button {
+    width: 120px;
+    height: 50px;
+    top: 902px;
+    left: 886px;
+    border-radius: 10px;
+    background: #E8E8E8;
+    margin-top: 40px;
+    font-size: 22px;
+    border: none;
+}
+
+.info_div {
+    float: right;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.toggle_buttons {
+    display: flex;
+    gap: 30px;
+    align-self: center;
+}
+
+#toggle_buttons {
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background: #E8E8E8;
+    margin-top: 40px;
+}
+
+.pokemon_name {
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+    background: #E8E8E8;
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: center;
+    justify-self: center;
+    padding-top: 10px;
+    
+}
