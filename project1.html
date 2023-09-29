@@ -1,34 +1,40 @@
 <!DOCTYPE html>
-<header>
-    <h1>Bits of Good Mid-Semester Project</h1>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bits of Good Mid-Semester Project</title>
     <link rel="stylesheet" href="project1.css">
-</header>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
 <body>
-    <div class = "body">
+    <h1>Bits of Good Mid-Semester Project</h1>
+    <div class="body">
         <div class="left_half">
-            <img></img>
-            <div class = "pokemon_name">ditto</div>
+            <img id="poke_image" src=""></img>
+            <div id ="pokemon_name">ditto</div>
             <h3>Types:</h3>
             <ul class="types"></ul>
-            <div class = "toggle_buttons">
-                <button id = "toggle_buttons"></button>
-                <button id = "toggle_buttons"></button>
+            <div class="toggle_buttons">
+                <button id="toggle_button"></button>
+                <button id="toggle_button"></button>
             </div>
         </div>
         <div class="right_half">
-            <div class = "info_div">
+            <div class="info_div">
                 <h2>Info</h2>
-                <div class = "stats_panel"></div>
+                <div class="stats_panel"></div>
             </div>
-            <div class = "moves_div">
-                <h2 class = >Moves</h2>
-                <div class = "moves_panel"></div>
+            <div class="moves_div">
+                <h2>Moves</h2>
+                <div class="moves_panel"></div>
             </div>
-            <div class = "info_move_buttons">
-                <button id = "info_move_button">Info</button>
-                <button id = "info_move_button">Moves</button>
+            <div class="info_move_buttons">
+                <button id="info_move_button">Info</button>
+                <button id="info_move_button">Moves</button>
             </div>
         </div>
     </div>
-    <script src=”project.js”></script>
+    <script type="module" src="project1.js"></script>
 </body>
+</html>
