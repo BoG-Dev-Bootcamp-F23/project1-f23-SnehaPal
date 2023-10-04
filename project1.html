@@ -5,36 +5,36 @@
     <title>Bits of Good Mid-Semester Project</title>
     <link rel="stylesheet" href="project1.css">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
+    <script type="module" src="project1.js"></script>
 </head>
 <body>
     <h1>Bits of Good Mid-Semester Project</h1>
     <div class="body">
         <div class="left_half">
-            <img id="poke_image" src=""></img>
+            <img id="poke_image" src="">
             <div id ="pokemon_name">ditto</div>
             <h3>Types:</h3>
-            <ul class="types"></ul>
+            <ul id="types"></ul>
             <div class="toggle_buttons">
-                <button id="toggle_button"></button>
-                <button id="toggle_button"></button>
+                <button id="back_button"><img src="left_arrow.png" alt="Back"></button>
+                <button id="next_button"><img src="right_arrow.png" alt="Next"></button>
             </div>
         </div>
         <div class="right_half">
-            <div class="info_div">
+            <div id="info_div">
                 <h2>Info</h2>
-                <div class="stats_panel"></div>
+                <div id="stats_panel"></div>
             </div>
-            <div class="moves_div">
+            <div id="moves_div">
                 <h2>Moves</h2>
-                <div class="moves_panel"></div>
+                <div id="moves_panel"></div>
             </div>
             <div class="info_move_buttons">
-                <button id="info_move_button">Info</button>
-                <button id="info_move_button">Moves</button>
+                <button id="info_button">Info</button>
+                <button id="move_button">Moves</button>
             </div>
         </div>
     </div>
-    <script type="module" src="project1.js"></script>
+    <script type="text/javascript" src="project1.js"></script>
 </body>
 </html>
