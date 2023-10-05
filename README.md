@@ -10,6 +10,7 @@ In this project, you'll be creating a frontend that graphically displays Pokémo
 
 # Submission Instructions
 - Create a 0.5-3 minute video walkthrough of your project (include the video link in the README of your project repo)
+- VIDEO LINK:https://www.loom.com/share/e3da8867bd5a45418eb4b6254e500092?sid=2f4f5d42-3248-48c7-8dbd-731770e75e94
 - Push all your changes to the remote repository. Make sure that the owner is BoG-Dev-Bootcamp-F23 so that we can see the repository! (if you forgot to do this, you can alternatively message Nathan on Slack with the link to your repo)
 - **Due Date:** 10-5-2023
 
